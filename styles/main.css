@@ -69,7 +69,256 @@ a {
     width: 955px;
     height: 118px;
     background: url("../images/banner01.jpg") center center;
-    margin-top: 115px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 115px auto 80px;
+}
+
+/* calc */
+.calc{
+    width: 230px;
+    float: left;
+    margin: 0 105px 0 50px;
+}
+.title{
+    font-size: 30px;
+    font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
+    text-align: center;
+    color: #000A23;
+    margin-bottom: 35px;
+}
+.calc .multiButton{
+    height: 104px;
+}
+.calc .multiButton li{
+    float: left;
+    width: 100px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+}
+.calc .multiButton li a{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid #000A23;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
+    text-align: center;
+    padding: 0 15px;
+}
+.calc .multiButton .selected{
+    color: #FFFFFF;
+    background-color: #000A23;
+    border: 1px solid #000A23;
+}
+.calc .multiButton ul:last-child li{
+    float: left;
+    width: 110px;
+}
+.calc .multiButton ul:last-child a{
+    padding: 0 10px;
+    font-size: 22px;
+    font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
+}
+.calc .multiButton ul:first-child{
+    margin-left: 13px;
+}
+.calc .multiButton ul:last-child{
+    margin-left: 2px;
+}
+
+.calc .content{
+    background-color: #E6E7E9;
+    width: 230px;
+    height: 343px;
+    border-radius: 5px;
+}
+.calc .content input{
+    width: 85px;
+    height: 30px;
+    border-radius: 5px;
+    background: #FFFFFF url("../images/inputBG2.jpg") no-repeat right center;
+    padding-left: 15px;
+}
+.calc .content i{
+    width: 11px;
+    height: 11px;
+    background: url("../images/multiIcon.jpg") center center;
+}
+.allPrice{
+    width: 190px;
+    height: 74px;
+    line-height: 74px;
+    background: #FFFFFF url("../images/allPriceBG.jpg") no-repeat 175px 60px;
+    color: #000A23;
+    font-size: 40px;
+    font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.calcBtn{
+    display: block;
+    width: 114px;
+    height: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+    background-color: #000A23;
+    border: 1px solid #000A23;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
+    text-align: center;
+    margin: 0 auto;
+}
+.calc .tip{
+    border-top: 1px solid #000A23;
+    font-size: 12px;
+    font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
+    color: #000A23;
+    margin: 0 10px;
+    padding-top: 10px;
+}
+
+/* upload */
+.upload{
+    width: 230px;
+    float: left;
+    margin-right: 105px;
+}
+.upload textarea{
+    width: 230px;
+    height: 224px;
+    background-color: #E6E7E9;
+    border-radius: 5px;
+}
+.upload .content{
+    width: 230px;
+    height: 343px;
+    font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
+    font-size: 12px;
+    color: #000A23;
+    text-align: center;
+}
+.upload .content .conTitle{
+    width: 230px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #B3B6BD;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+.upload .content .lf{
+    float: left;
+    width: 92px;
+    height: 33px;
+    line-height: 33px;
+    background-color: #C0C2C8;
+    margin-bottom: 2px;
+    border-radius: 10px;
+}
+.upload .content .rf{
+    float: right;
+    width: 137px;
+    height: 33px;
+    line-height: 33px;
+    background-color: #E6E7E9;
+    margin-bottom: 2px;
+    border-radius: 10px;
+}
+.upload .content .rf input{
+    border-radius: 10px;
+    padding-left: 15px;
+}
+.upload .tip{
+    border-top: 1px solid #000A23;
+    font-size: 12px;
+    font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
+    color: #000A23;
+    margin: 0 10px;
+    padding-top: 10px;
+}
+
+
+.payCode{
+    margin-bottom: 2px;
+}
+/* pay */
+.pay{
+    width: 312px;
+    float: left;
+}
+
+.pay .multiButton{
+    height: 42px;
+    margin-bottom: 10px;
+}
+.pay .multiButton li{
+    float: left;
+    margin-right: 2px;
+    margin-bottom: 10px;
+}
+.pay .multiButton li a{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid #000A23;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
+    text-align: center;
+}
+.pay .multiButton .selected{
+    color: #FFFFFF;
+    background-color: #000A23;
+    border: 1px solid #000A23;
+}
+
+.pay .qrCode{
+    width: 312px;
+    height: 300px;
+    background-color: #E6E7E9;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    position: relative;
+}
+.pay .qrCode img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 35px auto;
+}
+.pay .qrCode p{
+    color: #000A23;
+    font-size: 18px;
+    font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
+    text-align: center;
+}
+.pay .qrCode .tip{
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    width: 15px;
+    color: #000A23;
+    font-size: 15px;
+    font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
+}
+
+.pay .tip{
+    width: 312px;
+    height: 96px;
+    color: #000A23;
+    font-size: 12px;
+    font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
+    background-color: #E6E7E9;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+.pay .tip p{
+    margin: 0 0 2px 30px;
+}
+.pay .tip p:first-child{
+    margin: 20px 0 4px 30px;
 }
