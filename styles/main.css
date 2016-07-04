@@ -63,6 +63,36 @@ a {
     border: 1px solid transparent;
     box-shadow: 0 0 15px #767684;
     height: 880px;
+    position: relative;
+}
+
+.contactBar{
+    position: absolute;
+    right: 0;
+    top: -255px;
+    width: 350px;
+    height: 80px;
+    background: #000921 url("../images/xiangxia.jpg") no-repeat center 60px;
+    border-radius: 5px;
+}
+.contactBar a{
+    display: inline-block;
+    margin: 10px 10px;
+    float: left;
+}
+.contactBar a:first-child{
+    margin-right: 85px;
+}
+.contactBar a:last-child{
+    margin-left: 73px;
+}
+
+
+.logo{
+    display: block;
+    position: absolute;
+    left: 38px;
+    top: -198px;
 }
 
 .bannerImg{
@@ -132,18 +162,35 @@ a {
     width: 230px;
     height: 343px;
     border-radius: 5px;
+    border: 1px solid transparent;
+}
+.calc .count{
+    height: 30px;
+    margin: 4px 4px 0;
+    background: url("../images/multiIcon.jpg") no-repeat center center;
+}
+.calc .perPrice{
+    float: left;
+    width: 100px;
+    height: 30px;
+    color: #000A23;
+    font-size: 25px;
+    font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.calc .perPrice span{
+    color: #000A23;
+    font-size: 15px;
+    font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
 }
 .calc .content input{
+    float: right;
     width: 85px;
     height: 30px;
     border-radius: 5px;
     background: #FFFFFF url("../images/inputBG2.jpg") no-repeat right center;
     padding-left: 15px;
-}
-.calc .content i{
-    width: 11px;
-    height: 11px;
-    background: url("../images/multiIcon.jpg") center center;
 }
 .allPrice{
     width: 190px;
@@ -154,7 +201,7 @@ a {
     font-size: 40px;
     font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
     text-align: center;
-    margin: 0 auto;
+    margin: 40px auto 0;
     border-radius: 5px;
 }
 .calcBtn{
@@ -169,14 +216,14 @@ a {
     font-size: 17px;
     font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
     text-align: center;
-    margin: 0 auto;
+    margin: 20px auto 0;
 }
 .calc .tip{
     border-top: 1px solid #000A23;
     font-size: 12px;
     font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
     color: #000A23;
-    margin: 0 10px;
+    margin: 50px 10px 0 10px;
     padding-top: 10px;
 }
 
@@ -186,15 +233,40 @@ a {
     float: left;
     margin-right: 105px;
 }
+.upload .uploadBtn{
+    width: 114px;
+    height: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+    background-color: #000A23;
+    border: 1px solid #000A23;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
+    text-align: center;
+    margin: 0 auto;
+}
 .upload textarea{
     width: 230px;
-    height: 224px;
+    height: 134px;
     background-color: #E6E7E9;
     border-radius: 5px;
+    margin-bottom: 8px;
+    text-align: center;
+    padding-top: 90px;
 }
+::-webkit-input-placeholder {
+    color: #8F949E;
+    font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
+    font-size: 12px;
+}
+::-moz-placeholder { color:#000921; } /* firefox 19+ */
+:-ms-input-placeholder { color:#000921; } /* ie */
+input:-moz-placeholder { color:#000921; }
+
 .upload .content{
     width: 230px;
-    height: 343px;
+    height: 140px;
     font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
     font-size: 12px;
     color: #000A23;
@@ -231,12 +303,11 @@ a {
     padding-left: 15px;
 }
 .upload .tip{
-    border-top: 1px solid #000A23;
     font-size: 12px;
     font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
     color: #000A23;
-    margin: 0 10px;
-    padding-top: 10px;
+    margin: 10px 0;
+    text-align: center;
 }
 
 
@@ -301,7 +372,7 @@ a {
     left: 20px;
     top: 50px;
     width: 15px;
-    color: #000A23;
+    color: #8F949E;
     font-size: 15px;
     font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
 }
@@ -321,4 +392,20 @@ a {
 }
 .pay .tip p:first-child{
     margin: 20px 0 4px 30px;
+}
+
+.loginBtn{
+    position: absolute;
+    left: -55px;
+    top: 70px;
+}
+.Btn{
+    position: absolute;
+    left: 1080px;
+    top: 470px;
+}
+.wechatQR{
+    position: absolute;
+    left: 1100px;
+    top: 70px;
 }
