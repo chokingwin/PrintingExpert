@@ -61,6 +61,6 @@ $('.contactBar').mouseenter(function(){
 });
 $('.contactBar').mouseleave(function(){
     $(this).animate({
-        'top': '-255px'
+        'top': '-275px'
     },'700');
 });

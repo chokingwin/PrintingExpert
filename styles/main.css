@@ -69,15 +69,15 @@ a {
 .contactBar{
     position: absolute;
     right: 0;
-    top: -255px;
+    top: -275px;
     width: 350px;
-    height: 80px;
-    background: #000921 url("../images/xiangxia.jpg") no-repeat center 60px;
+    height: 100px;
+    background: #000921 url("../images/xiangxia.jpg") no-repeat center 80px;
     border-radius: 5px;
 }
 .contactBar a{
     display: inline-block;
-    margin: 10px 10px;
+    margin: 20px 10px;
     float: left;
 }
 .contactBar a:first-child{
@@ -96,8 +96,8 @@ a {
 }
 
 .bannerImg{
-    width: 955px;
-    height: 118px;
+    width: 954px;
+    height: 119px;
     background: url("../images/banner01.jpg") center center;
     margin: 115px auto 80px;
 }
