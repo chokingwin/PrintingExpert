@@ -204,6 +204,19 @@ a {
     margin: 40px auto 0;
     border-radius: 5px;
 }
+.result{
+    width: 165px;
+    height: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+    background-color: #002309;
+    border: 1px solid #000A23;
+    border-radius: 5px;
+    font-size: 24px;
+    font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
+    text-align: center;
+    margin: 20px auto 0;
+}
 .calcBtn{
     display: block;
     width: 114px;
