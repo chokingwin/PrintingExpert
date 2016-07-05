@@ -35,21 +35,48 @@
         <div class="title">自助报价</div>
         <div class="multiButton">
             <ul>
-                <li><a class="selected" href="javascript:void(0);" onclick="SItemClick(this)">黑白文印</a></li>
-                <li><a href="javascript:void(0);" onclick="SItemClick(this)">彩色文印</a></li>
+                <li><a class="selected" href="javascript:void(0);" name="top" val="0" onclick="SItemClickDouble(this)">黑白文印</a></li>
+                <li><a href="javascript:void(0);" name="top" val="1" onclick="SItemClickDouble(this)">彩色文印</a></li>
             </ul>
             <ul>
-                <li><a href="javascript:void(0);" onclick="SItemClick(this)">单面打印</a></li>
-                <li><a class="selected" href="javascript:void(0);" onclick="SItemClick(this)">双面打印</a></li>
+                <li><a href="javascript:void(0);" name="bottom" val="0" onclick="SItemClickDouble(this)">单面打印</a></li>
+                <li><a class="selected" href="javascript:void(0);" name="bottom" val="1" onclick="SItemClickDouble(this)">双面打印</a></li>
             </ul>
         </div>
-        <div class="content">
+        <div class="content" style="display: none">
             <div class="count">
                 <p class="perPrice">0.15<span>元/张</span></p>
                 <input type="text" placeholder="输入张数">
             </div>
-            <div class="allPrice">4.00</div>
-            <a href="javascript:void(0);" class="calcBtn">预计报价</a>
+            <div class="allPrice">0.00</div>
+            <a href="javascript:void(0);" class="calcBtn" val="0.15" onclick="calc(this);">预计报价</a>
+            <p class="tip">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以上报价为正常情况下的报价，如果有特殊需求或者其他工艺，如装裱、过膜等等，需要人工报价，以人工报价为准。</p>
+        </div>
+        <div class="content" style="display: block">
+            <div class="count">
+                <p class="perPrice">0.2<span>元/张</span></p>
+                <input type="text" placeholder="输入张数">
+            </div>
+            <div class="allPrice">0.00</div>
+            <a href="javascript:void(0);" class="calcBtn" val="0.2" onclick="calc(this);">预计报价</a>
+            <p class="tip">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以上报价为正常情况下的报价，如果有特殊需求或者其他工艺，如装裱、过膜等等，需要人工报价，以人工报价为准。</p>
+        </div>
+        <div class="content" style="display: none">
+            <div class="count">
+                <p class="perPrice">0.5<span>元/张</span></p>
+                <input type="text" placeholder="输入张数">
+            </div>
+            <div class="allPrice">0.00</div>
+            <a href="javascript:void(0);" class="calcBtn" val="0.5" onclick="calc(this);">预计报价</a>
+            <p class="tip">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以上报价为正常情况下的报价，如果有特殊需求或者其他工艺，如装裱、过膜等等，需要人工报价，以人工报价为准。</p>
+        </div>
+        <div class="content" style="display: none">
+            <div class="count">
+                <p class="perPrice">1.00<span>元/张</span></p>
+                <input type="text" placeholder="输入张数">
+            </div>
+            <div class="allPrice">0.00</div>
+            <a href="javascript:void(0);" class="calcBtn" val="1" onclick="calc(this);">预计报价</a>
             <p class="tip">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以上报价为正常情况下的报价，如果有特殊需求或者其他工艺，如装裱、过膜等等，需要人工报价，以人工报价为准。</p>
         </div>
     </div>

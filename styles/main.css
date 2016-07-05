@@ -178,6 +178,7 @@ a {
     font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
     background-color: #FFFFFF;
     border-radius: 5px;
+    text-align: center;
 }
 .calc .perPrice span{
     color: #000A23;
@@ -186,11 +187,15 @@ a {
 }
 .calc .content input{
     float: right;
-    width: 85px;
+    width: 55px;
     height: 30px;
     border-radius: 5px;
     background: #FFFFFF url("../images/inputBG2.jpg") no-repeat right center;
     padding-left: 15px;
+    padding-right: 30px;
+    color: #000A23;
+    font-size: 15px;
+    font-family: "Microsoft Yahei", "Î¢ÈíÑÅºÚ";
 }
 .allPrice{
     width: 190px;
